@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class LanUI : MonoBehaviour
 {
-    [SerializeField] private string hostIP = "0. 0. 0. 0", connectIp = "*.*.*.*";
+    [SerializeField] private string hostIP = "0. 0. 0. 0";
+    [SerializeField] private string connectIp = "127.0.0.1";
     [SerializeField] private ushort port = 7777;
 
     public void StartHost()
